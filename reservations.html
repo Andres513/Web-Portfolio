@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exploring Tokyo</title>
+
+    <link rel="stylesheet" href="../styles/reservation.css">
+</head>
+
+<body background="../Pictures/cherry_blossoms.jpg" alt="cherry blossoms">
+    <main>
+        <header>
+            Tokyo, Japan
+        </header>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../links/reservations.html" class="current">Reservation</a></li>
+                <li><a href="../links/videos.html">Videos</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2><u>Make a Reservation!</u></h2>
+
+            <form name="reserve" action="../links/subscribed.html" method="get">
+                <h1>Please enter the following information:<br></h1>
+                <p>First Name: <input type="text" required></p>
+                <p>Last Name: <input type="text" required></p>
+                <p>Address: <input type="text"></p>
+                <p>City: <input type="text"></p>
+                <p>Zipcode: <input type="text"></p>
+                <p>State: <input type="text" maxlength="2" placeholder="CA"></p>
+                <p>E-mail: <input type="email" placeholder="janedoe@email.com" required></p>
+                <p>Phone Number: <input type="tel" maxlength="10" placeholder="999-999-9999"></p>
+                <p>Date: <input type="date"></p>
+                <p># of Guests: <input type="text"></p>
+                <p><em>Age: </em><select age="age_range">
+                        <option value="Under 18">Under 18</option>
+                        <option value="18-25">18-25</option>
+                        <option value="26-35">26-35</option>
+                        <option value="36-45">36-45</option>
+                        <option value="46-55">46-55</option>
+                        <option value="56+">56+</option>
+                        </select></p>
+                <p><input type="text" name="text" height="40" placeholder="Any comment?"></p>
+                <p><input type="submit" name="register" id="button" width="50" value="Submit"></p>
+            </form>
+
+        </section>
+        <aside>
+            <h2><u>Geography</u></h2>
+            <ul>
+                <li>Population: 11.7 million</li>
+                <li>Capital of Japan</li>
+                <li>Language: Japanese</li>
+
+            </ul>
+            <h2><b><u>Attractions</u></b></h2>
+
+            <div><img src="../Pictures/skytree.jpg" alt="Tokyo Skytree"></div>
+            <a href="http://www.japanvisitor.com/tokyo/tokyoskytree">Tokyo Skytree</a>
+            <div><img src="../Pictures/museum.jpg" alt="Tokyo Skytree"></div>
+            <a href="http://www.tnm.jp/?lang=en">Tokyo National Museum</a>
+            <div><img src="../Pictures/nezushrine.jpg" alt="Nezu Shrine"></div>
+            <a href="https://en.japantravel.com/tokyo/nezu-shrine-tokyo/1421">Nezu Shrine</a>
+            <div><img src="../Pictures/imperialpalace.jpg" alt="Imperial Palace"></div>
+            <a href="http://www.japan-guide.com/e/e3017.html">Imperial Palace</a>
+        </aside>
+    </main>
+</body>
+
+</html>
